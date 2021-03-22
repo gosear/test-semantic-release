@@ -1,6 +1,6 @@
 {
   "name": "test-semantic-release",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": false,
   "author": "gosearch",
   "license": "MIT",
@@ -12,7 +12,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -33,5 +34,11 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-template-compiler": "^2.6.11"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "branches": ["master", "next"]
   }
 }
