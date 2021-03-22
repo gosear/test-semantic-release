@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/gosear/test-semantic-release"
   },
+  "repositoryUrl": "https://github.com/gosear/test-semantic-release",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -37,8 +38,5 @@
   },
   "publishConfig": {
     "access": "restricted"
-  },
-  "release": {
-    "branches": ["master", "next"]
   }
 }
