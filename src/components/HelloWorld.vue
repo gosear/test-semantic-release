@@ -41,9 +41,6 @@ export default {
     msg: String
   },
   methods:{
-
-
-
     btnClick(){
       // console.log("btn click")
     }
