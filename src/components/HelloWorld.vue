@@ -43,12 +43,6 @@ export default {
   methods:{
 
     btnClick(){
-      const a ={};
-
-      console.log("a:",a?.b?.c??"no c in a ")
-
-      console.log("this.$store.getters.project_id:",this.$store.getters.project_id)
-      this.$store.dispatch('actions_1', {})
     }
   }
 }
