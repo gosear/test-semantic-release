@@ -1,6 +1,6 @@
 {
   "name": "test-semantic-release",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "author": "gosearch",
   "license": "MIT",
@@ -26,7 +26,6 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "@vue/cli-plugin-babel": "~4.5.0",
-    "cross-env": "^7.0.3",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-unit-jest": "~4.5.0",
@@ -34,10 +33,17 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/test-utils": "^1.0.3",
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "semantic-release": "^17.4.2",
     "semantic-release-cli": "^5.4.3",
     "vue-template-compiler": "^2.6.11"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
