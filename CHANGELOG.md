@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/gosear/test-semantic-release/compare/v1.0.1...v2.0.0) (2021-03-23)
+
+
+### Features
+
+* **dabanben:** sdfdsfds ([cbcdc3b](https://github.com/gosear/test-semantic-release/commit/cbcdc3bb917ec5cdad26c803df18ca802d98ae94))
+
+
+### BREAKING CHANGES
+
+* **dabanben:** sdfdsfsdfsdfdsfdsfsdfsdfsdfsdf
+
 ## [1.0.1](https://github.com/gosear/test-semantic-release/compare/v1.0.0...v1.0.1) (2021-03-23)
 
 
