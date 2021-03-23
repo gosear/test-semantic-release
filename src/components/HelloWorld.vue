@@ -43,7 +43,7 @@ export default {
   methods:{
 
     btnClick(){
-      console.log("btn click")
+      // console.log("btn click")
     }
   }
 }
