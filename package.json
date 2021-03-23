@@ -14,7 +14,7 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
-    "semantic-release": "semantic-release --gh_token=e836ff63f4e3e261456b4263b8dc2f72f1b3d419 --npm_token=790f9981-4245-490c-ac8b-5a10c814cd8"
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "core-js": "^3.6.5",
