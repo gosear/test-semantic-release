@@ -39,8 +39,5 @@
     "semantic-release": "^17.4.2",
     "semantic-release-cli": "^5.4.3",
     "vue-template-compiler": "^2.6.11"
-  },
-  "publishConfig": {
-    "access": "restricted"
   }
 }
